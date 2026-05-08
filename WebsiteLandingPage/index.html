@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuroraFlow Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="#home" aria-label="AuroraFlow home">
+        <span class="brand-mark">A</span>
+        <span>AuroraFlow</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#features">Features</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#process">Process</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#pricing">Try Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Modern workflow platform</p>
+        <h1>Launch smarter campaigns with one elegant workspace.</h1>
+        <p class="hero-text">
+          Plan content, track teams, automate approvals, and turn scattered ideas into polished launches without losing momentum.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#pricing">Start Free</a>
+          <a class="secondary-button" href="#features">Explore Features</a>
+        </div>
+        <div class="hero-points" aria-label="Product highlights">
+          <span><i class="fa-solid fa-bolt"></i> Fast setup</span>
+          <span><i class="fa-solid fa-shield-halved"></i> Secure workflow</span>
+          <span><i class="fa-solid fa-chart-line"></i> Live reports</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trusted-band">
+      <p>Trusted by creative teams building better digital launches</p>
+      <div class="logo-row">
+        <span>Northstar</span>
+        <span>BrightLab</span>
+        <span>PixelHouse</span>
+        <span>Elevate</span>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">Features</p>
+        <h2>Everything your team needs to move beautifully.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-calendar-check"></i></div>
+          <h3>Visual planning</h3>
+          <p>Create campaign timelines, assign work, and see every launch stage in one clean dashboard.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>Smart automation</h3>
+          <p>Automate reminders, approvals, and handoffs so your team spends less time chasing updates.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-chart-simple"></i></div>
+          <h3>Live insights</h3>
+          <p>Track performance, spot bottlenecks, and make faster decisions with real-time reports.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="showcase-section reveal" id="solutions">
+      <div class="section-heading">
+        <p class="eyebrow">What you get</p>
+        <h2>Creative tools packed into one beautiful system.</h2>
+      </div>
+
+      <div class="showcase-grid">
+        <article class="showcase-card">
+          <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=900&q=85" alt="Team working around a laptop">
+          <div class="showcase-body">
+            <span class="showcase-tag">Planning</span>
+            <h3>Campaign command center</h3>
+            <ul>
+              <li>Shared launch calendars</li>
+              <li>Task owners and priorities</li>
+              <li>Project briefs in one place</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="showcase-card featured-showcase">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=85" alt="Creative team reviewing ideas">
+          <div class="showcase-body">
+            <span class="showcase-tag">Creative</span>
+            <h3>Content production hub</h3>
+            <ul>
+              <li>Asset library for images and copy</li>
+              <li>Approval stages for every design</li>
+              <li>Feedback loops that stay organized</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="showcase-card">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=85" alt="Analytics dashboard on a screen">
+          <div class="showcase-body">
+            <span class="showcase-tag">Growth</span>
+            <h3>Performance insights</h3>
+            <ul>
+              <li>Live campaign progress reports</li>
+              <li>Simple conversion tracking</li>
+              <li>Weekly team performance summary</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="split-section" id="process">
+      <div class="split-image" aria-hidden="true"></div>
+      <div class="split-content">
+        <p class="eyebrow">Process</p>
+        <h2>From first idea to launch day, stay in rhythm.</h2>
+        <p class="process-lead">AuroraFlow keeps every moving piece visible, from early concepts to final publishing checks.</p>
+        <div class="steps">
+          <div>
+            <span>1</span>
+            <p>Collect ideas, briefs, and assets in one shared hub.</p>
+          </div>
+          <div>
+            <span>2</span>
+            <p>Turn plans into tasks with owners, dates, and priorities.</p>
+          </div>
+          <div>
+            <span>3</span>
+            <p>Review, approve, publish, and measure results with confidence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div>
+        <strong>42%</strong>
+        <span>faster campaign delivery</span>
+      </div>
+      <div>
+        <strong>18k+</strong>
+        <span>projects organized</span>
+      </div>
+      <div>
+        <strong>99%</strong>
+        <span>team satisfaction</span>
+      </div>
+    </section>
+
+    <section class="cta-section" id="pricing">
+      <div class="cta-inner">
+        <p class="eyebrow">Simple pricing</p>
+        <h2>Start building better launches today.</h2>
+        <p>Free for small teams. Upgrade when you need advanced automation, custom reporting, and priority support.</p>
+        <div class="cta-actions">
+          <a class="primary-button dark-button" href="#contact">Get Started</a>
+          <a class="ghost-button" href="#solutions">View Tools</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div>
+      <a class="brand" href="#home">
+        <span class="brand-mark">A</span>
+        <span>AuroraFlow</span>
+      </a>
+      <p>Beautiful launch management for ambitious teams.</p>
+    </div>
+    <div class="footer-contact">
+      <a class="footer-link" href="mailto:hello@auroraflow.com">hello@auroraflow.com</a>
+      <div class="social-links" aria-label="Social media links">
+        <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
